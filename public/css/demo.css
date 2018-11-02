@@ -1,0 +1,306 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	border:0;
+}
+.container
+{
+	width: 640px;
+	margin: auto;
+}
+
+.row
+{
+	display: flex;
+}
+.demo
+{
+	border: 1px solid red;
+}
+
+.col-1{
+	order: 1;
+	flex: 1;
+}
+.margin-top
+{
+	margin-top: 30px;
+}
+.col
+{
+	order: 1;
+	flex: 1;
+	display:flex;
+
+}
+.col-2
+{
+	flex: 2;
+	order: 2;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.radius
+{
+	width: 183px;
+	height: 183px;
+	border-radius: 183px;
+}
+.col-3
+{
+	flex: 1;
+	order: 3;
+	display:flex;
+	justify-content: flex-end;
+}
+
+.background
+{
+	display: flex;
+	flex: 1;
+	order: 1;
+	background-image: url('../img/Layer_29.png');
+	height: 430px;
+	flex-direction: column;
+}
+
+.span
+{
+	color: white;
+	font-size: 25px;
+}
+.margin_right
+{
+	margin-right: 30px;
+}
+
+.margin_left
+{
+	margin-left: 30px;
+}
+
+.menu
+{
+	order: 2;
+	flex: 1;
+	display: flex;
+	align-items: flex-end;
+}
+
+.col_1
+{
+	order: 1;
+	flex: 1;
+}
+.col_2
+{
+	order:2;
+	flex: 1;
+
+}
+.col_3
+{
+	order: 3;
+	flex: 2;
+}
+.border-right
+{
+	border-right: 1px solid white
+	;
+	padding:10px 0 10px 30px;
+}
+
+.margin_btm
+{
+	margin-bottom: 10px;
+}
+.margin_top
+{
+	margin-top:70px;
+}
+
+.logo
+{
+	order: 1;
+	flex:1;
+	height: 117px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.acount
+{
+	order: 2;
+	flex:4;
+	height: 117px;
+	display: flex;
+	flex-direction: column;
+}
+
+.font1
+{
+	font-size: 20px;
+	color: black;
+}
+
+.cl
+{
+	order: 1;
+	flex: 1;
+	display: flex;
+	align-items: flex-end;
+}
+
+.s{
+	order: 2;
+	flex:1;
+	display: flex;
+	align-items: center;
+}
+
+.bg
+{
+	order: 1;
+	flex: 1;
+	background-image: url('../img/frame-2.png');
+	height: 300px;
+	display: flex;
+
+}
+.bg_2
+{
+	order: 1;
+	flex: 1;
+	background-image: url('../img/frame-3.png');
+	height: 300px;
+	display: flex;
+
+}
+
+.overlay
+{
+    height: 60px;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    order: 1;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.font2
+{
+	font-size: 20px;
+	color: white;
+	padding-left: 20px;
+}
+
+.padding
+{
+	padding-left: 40px;
+
+}
+
+.padding_all
+{
+	padding: 25px;
+}
+
+.content
+{
+	display:flex;
+	flex-direction: column;
+
+}
+
+.col-5
+{
+	order: 1;
+	width: 330px
+}
+
+.col-6
+{
+	order: 2;
+	width: 550px;
+	border-bottom: 1px outset white;
+}
+.col-7
+{
+
+	order: 3;
+	flex:1;
+	height: 50px;
+	display: flex;
+	margin-top: 30px;
+}
+
+.font3
+{
+	font-size: 30px;
+}
+
+.col_4
+{
+	order: 1;
+	flex: 3;
+}
+.col_5
+{
+	order: 2;
+	flex: 1;
+}
+.col_6
+{
+	order: 3;
+	flex: 1;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+}
+@font-face {
+    font-family: "san_L";
+    src: url(../font/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: "san_bl";
+    src: url(../font/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: "san_se";
+    src: url(../font/OpenSans-Semibold.ttf);
+}
+@font-face {
+    font-family: "ser-r";
+    src: url(../font/PT_Serif.ttf);
+}
+@font-face {
+    font-family: "ser-bl";
+    src: url(../font/PT_Serif_Bold.ttf);
+}
+
+.font-san-l
+{
+	font-family: "san_L";
+}
+.font-san-bl
+{
+	font-family: "san_bl";
+}
+.font-san-se
+{
+	font-family: "ser-r";
+}
+.font-ser-r
+{
+	font-family: 'Open Sans', sans-serif;
+}
+.font-ser-bl
+{
+	font-family: "ser-bl";
+}
